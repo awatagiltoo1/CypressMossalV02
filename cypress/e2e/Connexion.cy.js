@@ -61,12 +61,13 @@ if (true) {
         cnx.SetPassword('input[name="password"]','password')
         cnx.ClickSubmit('.submit')
         CreationMossalCollab.ClickTableCollab('Collaborateurs')
-        //cy.get(':nth-child(1) > .cdk-column-action > .dropdown > .btn-edit-statut > .text')
+       /*
+       Pour tests
         DetailCollab.ChosirCollab(':nth-child(1) > .cdk-column-action > .dropdown > .btn-edit-statut > .text')
-       //DetailCollab.ChosirCollab('Action')
+       
         DetailCollab.OptionEdition('tr:nth-child(4) > td:nth-child(5) > .dropdown > .btn-edit-statut > .text > span')
         DetailCollab.AfficherDetailCollab('tr:nth-child(4) > td:nth-child(5) > .dropdown > #dropdown-action > div:nth-child(2)')
-          
+       */   
     })   
     }
 
